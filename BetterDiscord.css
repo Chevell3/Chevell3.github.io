@@ -1,0 +1,110 @@
+.theme-dark .profileColors-2AgAV4,
+.theme-dark .accountProfileCard-lbN7n- {
+  --profile-body-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.theme-light .profileColors-2AgAV4,
+.theme-light .accountProfileCard-lbN7n- {
+  --profile-body-background-color: rgba(255, 255, 255, 0.65);
+}
+
+.bannerSVGWrapper-2CLfzN:not(:has([style*=image])) {
+  overflow: visible;
+  contain: none;
+}
+.bannerSVGWrapper-2CLfzN:not(:has([style*=image])) foreignObject {
+  -webkit-mask: none;
+   mask: none;
+}
+.bannerSVGWrapper-2CLfzN:not(:has([style*=image])) [style*=background-color] {
+  height: 100vh;
+}
+
+.profileColors-2AgAV4:not(:has(svg div[style*=image])) .avatarWrapper-eenWra {
+  background: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+}
+.profileColors-2AgAV4:not(:has(svg div[style*=image])) .avatarHoverTarget-1zzfRL,
+.profileColors-2AgAV4:not(:has(svg div[style*=image])) .avatarHint-k7pYop {
+  padding: 6px;
+}
+.profileColors-2AgAV4:not(:has(svg div[style*=image])) .avatar-3QF_VA {
+  background: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+  padding: 6px;
+}
+.profileColors-2AgAV4 .profileBadges-2pItdR:not(.containerWithContent-2Yws8V) {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.profileColors-2AgAV4 .messageInputContainer-24qqTx {
+  border: none;
+}
+
+.containerWithContent-2Yws8V {
+  box-shadow: var(--elevation-medium);
+  z-index: 1;
+}
+
+.overlayBackground-2aa7wt {
+  margin: 28px 8px 8px;
+  box-shadow: var(--elevation-medium);
+  z-index: 1;
+}
+
+.profileColors-2AgAV4 .wrapper-3Un6-K circle,
+.profileColors-2AgAV4 .wrapper-3Un6-K rect[style] {
+  fill: none;
+}
+
+.accountProfileCard-lbN7n-:not(:has(div[style*=image])) {
+  background: none;
+  box-shadow: var(--elevation-medium);
+}
+.accountProfileCard-lbN7n-:not(:has(div[style*=image])) .avatar-3mTjvZ {
+  top: 16px;
+  left: 16px;
+  padding: 6px;
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+}
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN {
+    position: absolute;
+    min-width: unset !important;
+    width: 100%;
+}
+.accountProfileCard-lbN7n- .userInfo-regn9W {
+  height: 116px;
+  align-items: flex-end;
+  position: relative;
+}
+.accountProfileCard-lbN7n-:has(div[style*=image]) .userInfo-regn9W {
+  margin-top: 100px;
+}
+.accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
+.accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px;
+}
+.accountProfileCard-lbN7n- .userTag-2qPxEZ {
+  margin-bottom: 0;
+  padding-left: 4px;
+}
+.accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi .overflowMenuButton-1I3Jz1 {
+  height: 24px;
+}
+.accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
+  margin-top: 4px;
+}
+.accountProfileCard-lbN7n- .background-3d_SjE {
+  box-shadow: var(--elevation-medium);
+  position: relative;
+  background-color: var(--profile-body-background-color);
+}
+.accountProfileCard-lbN7n- .fieldList-in8WkP {
+  background: none;
+}
